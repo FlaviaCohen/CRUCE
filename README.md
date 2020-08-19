@@ -12,7 +12,7 @@ Es un catálogo de productos que cumple con algunos requisitos, tales como:
 
 Para instalar el proyecto de manera local:
 
-con Postgres corriendo
+(con Postgres corriendo)
 
 ```
 createdb cruce
