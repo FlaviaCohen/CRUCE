@@ -42,7 +42,7 @@ npm i
 npm run build
 ```
 
-Ingresar en:
+Con ambas terminales corriendo ingresar en:
 ```
 http://localhost:3000
 ```
