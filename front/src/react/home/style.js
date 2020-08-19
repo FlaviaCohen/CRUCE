@@ -10,7 +10,7 @@ width: 100%;
 `
 
 export const ProductsContainer = styled.div`
-margin: 0 auto;
+margin: 0 auto 50px;
 padding: 20px;
 display: flex;
 flex-wrap: wrap;
