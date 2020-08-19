@@ -32,7 +32,7 @@ npm run seed.js
 npm start
 ```
 
-En una nueva terminal y sin cerrar la anterior posicionarse en /front y correr en la terminal
+En una nueva terminal y sin cerrar la anterior posicionarse en /front y correr
 
 ```
 npm i
