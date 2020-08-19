@@ -4,6 +4,7 @@ const volleyball = require("volleyball");
 const bodyParser = require("body-parser");
 const db = require('./config/db')
 const Router = require('./routes')
+const port = process.env.PORT || 3000
 
 app.use(express.static(__dirname + "/public"));
 
@@ -21,6 +22,6 @@ app.get('/*', (req, res) => {
 
 db.sync({force: false})
 .then(()=>{
-    app.listen(3000, ()=>{console.log('listening on port 3000')})
+    app.listen(port, ()=>{console.log('listening on port 3000')})
 })
 .catch((err) => console.log(err))
