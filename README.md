@@ -12,7 +12,13 @@ Es un catálogo de productos que cumple con algunos requisitos, tales como:
 
 Para instalar el proyecto de manera local:
 
-Posicionarse en la carpeta /back y correr en la terminal
+(con Postgres corriendo)
+
+```
+createdb cruce
+```
+
+Posicionarse en /back y correr en la terminal
 
 ```
 npm i
@@ -26,11 +32,7 @@ npm run seed.js
 npm start
 ```
 
-```
-http://localhost:3000
-```
-
-Posicionarse en la carpeta /front y correr en la terminal
+En una nueva terminal y sin cerrar la anterior posicionarse en /front y correr
 
 ```
 npm i
@@ -40,6 +42,10 @@ npm i
 npm run build
 ```
 
+Con ambas terminales corriendo ingresar en:
+```
+http://localhost:3000
+```
 ## Desarrollado con
 
 - [React](https://es.reactjs.org/docs/getting-started.html)
