@@ -18,7 +18,7 @@ con Postgres corriendo
 createdb cruce
 ```
 
-Posicionarse en la carpeta /back y correr en la terminal
+Posicionarse en /back y correr en la terminal
 
 ```
 npm i
@@ -32,7 +32,7 @@ npm run seed.js
 npm start
 ```
 
-Posicionarse en la carpeta /front y correr en la terminal
+Posicionarse en /front y correr en la terminal
 
 ```
 npm i
