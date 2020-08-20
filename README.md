@@ -4,11 +4,14 @@
 
 **Flavia Cohen** - [GitHub](https://github.com/FlaviaCohen)
 
-Es un catálogo de productos que cumple con algunos requisitos, tales como:
+Es un catálogo de productos con dos vistas. 
+La vista Admin (localhost:3000/admin-products) cumple con algunos requisitos, tales como:
 
 - Poder visualizar una grilla de productos
 - Rellenar el listado de productos con un archivo default ( seed.js )
 - Agregar, editar y eliminar un producto mediante un formulario
+
+La vista Catálogo (localhost:3000/) es la reproducción del diseño recibido en Figma.
 
 Para instalar el proyecto de manera local:
 
