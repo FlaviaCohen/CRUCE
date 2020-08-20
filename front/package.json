@@ -19,6 +19,7 @@
     "babel-loader": "^8.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-google-font-loader": "^1.1.0",
     "react-icons": "^3.10.0",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
@@ -30,6 +31,7 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
+    "file-loader": "^6.0.0",
     "url-loader": "^4.1.0"
   }
 }

@@ -71,12 +71,12 @@ class FormContainer extends React.Component {
       });
     }
     this.props.cleanProduct();
-    this.props.history.push("/");
+    this.props.history.push("/admin-products");
   }
 
   handleClick() {
     this.props.cleanProduct();
-    this.props.history.push("/");
+    this.props.history.push("/admin-products");
   }
 
   handleEnable(image, name, price) {
